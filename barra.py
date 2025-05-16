@@ -3,7 +3,7 @@ import numpy as np
 musicas=('happy day',' dancar na chuva',' alpha e omega',' seu sangue',' ele vira')
 acessos=(10,20,30,40,50)
 indice=np.arange(len(musicas))
-plt.bar(indice,acessos,color=('blue','green','yellow','red','black'))
+plt.bar(indice, acessos, color=('blue', 'green', 'yellow', 'red', 'black'))
 plt.xticks(indice,musicas)
 plt.ylabel('Acessos')
 plt.title('musicas mais acessadas')
